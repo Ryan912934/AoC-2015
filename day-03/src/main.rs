@@ -1,10 +1,6 @@
 use std::fs;
 
-
 fn load_input(day :&str) -> String {
-
-
-
     fs::read_to_string(format!("/home/ryan/Documents/AoC/2015/inputs/day{}.txt", day))
         .expect("Something went wrong reading the file")
 }
